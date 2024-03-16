@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: white;
+}
+header{
+    height: 50px;
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: beige;
+    overflow: hidden;
+    position: fixed;
+}
+header nav{
+    padding-left: 10px;
+    padding-right: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header nav ul{
+    display: flex;
+    list-style: none;
+    gap: 32px;
+    float: right;
+}
+header nav ul a{
+    text-decoration: none;
+    padding: 5px;
+}
+header nav span{
+    color: orange;
+}
+.name{
+    display: flex;
+}
+.nana img{
+    height: 30px;
+}
+#home2{
+    background-color: white;
+    height: 100vh;
+}
+.headcont{
+    margin: 30px;
+    padding-top: 7rem;
+    padding-left: 7rem;
+}
+h2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: xx-large;
+}
+p{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: justify;
+    padding-left: 3rem;
+    margin: 1rem;
+}
+ul{
+    padding-left: 3rem;
+    margin: 1rem;
+}

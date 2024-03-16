@@ -1,0 +1,424 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: white;
+}
+header{
+    height: 50px;
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: beige;
+    overflow: hidden;
+    position: fixed;
+}
+header nav{
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header nav ul{
+    display: flex;
+    list-style: none;
+    gap: 32px;
+    float: right;
+}
+header nav ul a{
+    text-decoration: none;
+    padding: 5px;
+}
+header nav span{
+    color: orange;
+}
+.name{
+    display: flex;
+}
+.nana img{
+    height: 30px;
+}
+#home{
+    margin-top: 0;
+    background-image: url(https://media.istockphoto.com/id/476541008/photo/saffron-rice-with-vegetables-and-cilantro.jpg?s=1024x1024&w=is&k=20&c=HEOkre1by8mpjjkSi_kPnEH8DD0X3NqUHxaoUlq1328=);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+#home2{
+    margin-top: 0;
+    background-color: white;
+    height: 100vh;
+}
+.heading{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 3rem;
+    color: white;
+    padding-top: 7rem;
+    padding-left: 7rem;
+}
+.headcont p{
+    color: black;
+    font-size: 2rem;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-left: 7rem;
+    margin-top: 0;
+}
+.btns{
+    padding-left: 7rem;
+    margin-top: 30px;
+    gap: 20px;
+}
+.order{
+    height: 60px;
+    width: 90px;
+    background-color: orange;
+    border-radius: 5px;
+    color: white;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    border-color: none;
+    margin-right: 2rem;
+}
+.order1{
+    height: 60px;
+    width: 90px;
+    background-color: transparent;
+    border-style: groove;
+    border-radius: 5px;
+    color: black;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    border-color: none;
+}
+#home button:hover{
+    background-color: white;
+    color: orange;
+    box-shadow: 1px 1px 1px 1px orange;
+    border-style: none;
+}
+#about{
+    margin-top: 0;
+    margin-left: 20px;
+    background-color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    padding: 30px;
+    align-items: center;
+}
+#about img{
+    border-radius: 10px;
+}
+#about p{
+    margin-left: 50px;
+    text-align: justify;
+    width: 600px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#about h2{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 50px;
+}
+.abbtn {
+    margin-left: 50px;
+    margin-top: 20px;
+}
+#about button:hover{
+    background-color: rgb(92, 252, 92);
+    color: orange;
+    box-shadow: 1px 1px 1px 1px white;
+    border-style: none;
+}
+.ord3{
+    height: 60px;
+    width: 100px;
+    background-color: orange;
+    border-radius: 5px;
+    color: white;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    border-color: none;
+    margin-right: 2rem;
+}
+#services{
+    margin-top: 0;
+    background-color:rgb(248, 248, 240);
+    height: auto;
+    padding: 30px;
+}
+.serv1 h2{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    padding-top: 60px;
+}
+.serv1 p{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: larger;
+    text-align: center;
+}
+.devcont{
+    height: 380px;
+    width: 400px;
+    border-style: initial;
+    background-color: orange;
+    border-radius: 10px;
+    color: white;
+    padding-left: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+.devcont img{
+    height: 190px;
+    margin-top: 20px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+.devcont2{
+    height: 380px;
+    width: 400px;
+    border-style: initial;
+    background-color: white;
+    border-radius: 10px;
+    padding-left: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.devcont2 img{
+    height: 60px;
+    margin-top: 30px;
+    border-radius: 100px;
+    border-style: solid;
+    padding: 10px;
+    background-color: white;
+    border-color: orange;
+    margin-left: 1.5rem;
+}
+.devcont a{
+    text-decoration: none;
+}
+.devcont3{
+    height: 380px;
+    width: 400px;
+    border-style: initial;
+    background-color:white;
+    border-radius: 10px;
+    padding-left: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.devcont3 img{
+    height: 60px;
+    margin-top: 50px;
+    border-radius: 100px;
+    border-style: solid;
+    padding: 10px;
+    margin-left: 1.5rem;
+    border-color: orange;
+}
+#dev{
+    display: flex;
+    gap: 20px;
+    margin: 5%;
+}
+#dev button{
+    border-color: orange;
+    border-radius: 10px;
+}
+#dev ul{
+    list-style: none;
+    padding-left: 20px;
+}
+#menu{
+    margin-top: 0;
+    background-color:white;
+    height: auto;
+    padding: 10px;
+}
+.mencont{
+    height: 380px;
+    width: 400px;
+    border-style: groove;
+    background-color: white;
+    border-color: black;
+    border-radius: 10px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.mencont img{
+    height: 200px;
+    border-radius: 5px;
+}
+.mencont2{
+    height: 380px;
+    width: 400px;
+    border-style: groove;
+    background-color: white;
+    border-color: black;
+    border-radius: 10px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.mencont2 img{
+    height: 200px;
+    border-radius: 5px;
+}
+.mencont3{
+    height: 380px;
+    width: 400px;
+    border-style: groove;
+    border-color: black;
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.mencont3 img{
+    height: 200px;
+    border-radius: 5px;
+}
+.mencont4{
+    height: 380px;
+    width: 400px;
+    border-style: groove;
+    border-color: black;
+    background-color:white;
+    border-radius: 10px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.mencont4 img{
+    height: 200px;
+    border-radius: 5px;
+}
+.meme{
+    padding-top: 10px;
+    padding-left: 20px;
+    display: flex;
+    gap: 20px;
+}
+.ord4{
+    height: 30px;
+    width: 80px;
+    background-color: orange;
+    border-color: white;
+    border-radius: 5px;
+    color: white;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+.ord5{
+    height: 60px;
+    width: 150px;
+    background-color: white;
+    border-radius: 5px;
+    color: orange;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    border-color: none;
+}
+.ord5:hover{
+    background-color: rgb(62, 245, 62);
+    color: white;
+}
+#menu button:hover{
+    background-color: rgb(92, 252, 92);
+    color: white;
+    box-shadow: 1px 1px 1px 1px white;
+    border-style: none;
+}
+#review{
+    margin-top: 0;
+    margin-left: 20px;
+    background-color: rgb(248, 248, 240);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    padding: 30px;
+    align-items: center;
+}
+#review img{
+    border-radius: 10px;
+}
+#review p{
+    margin-left: 50px;
+    text-align: justify;
+    width: 600px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#review h2{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 50px;
+}
+.abbtn button:hover{
+    background-color: rgb(110, 250, 110);
+    color: orange;
+    border-style: none;
+}
+.about form{
+    margin-left: 50px;
+}
+.about form label{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: larger;
+    color: orange;
+}
+.about form textarea{
+    height: 330px;
+    width: 100%;
+    resize: none;
+}
+.foo{
+    height: 300px;
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: beige;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    padding-top: 50px;
+}
+.fprt2 a{
+    text-decoration: none;
+}
+footer span{
+    color: orange;
+}
+footer ul{
+    list-style: none;
+}
+.foo a{
+    text-decoration: none;
+}
+.fprt1{
+    width: 300px;
+    height: 100%;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: larger;
+}
+.fprt2{
+    width: 300px;
+    height: 100%;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: larger;
+}
+.fprt3{
+    width: 300px;
+    height: 100%;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: larger;
+}
+.fprt3 ul li img{
+    height: 20px;
+}
+.lastfoo{
+    background-color: inherit;
+    text-align: center;
+    background-color: beige;
+    justify-content: space-between;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
