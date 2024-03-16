@@ -231,7 +231,7 @@ header nav span{
     margin-top: 0;
     background-color:white;
     height: auto;
-    padding: 10px;
+    padding: 5px;
 }
 .mencont{
     height: 380px;
@@ -372,7 +372,7 @@ header nav span{
     padding-right: 10px;
     background-color: beige;
     display: flex;
-    justify-content: space-between;
+    justify-content:space-evenly;
     gap: 10px;
     padding-top: 50px;
 }
