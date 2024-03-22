@@ -252,6 +252,7 @@ header a{
 }
 .menu-cont-1 img{
     width: 100%;
+    height: 65%;
     border-radius: 10px;
 }
 .menu1-price-btn{
@@ -336,7 +337,7 @@ header a{
 }
 .r-last-cont img{
     width: 45%;
-    height: 380px;
+    height: auto;
     border-radius: 10px;
     position: absolute;
     margin-left: 4%;
@@ -354,6 +355,7 @@ header a{
     margin-right: 50px;
     margin-left: 20%;
     padding-left: 30%;
+    margin-bottom: 5rem;
 }
 .r-comment-cont h2{
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -365,6 +367,7 @@ header a{
     font-size: medium;
     width: 65%;
     line-height: 30px;
+    height: auto;
 }
 .r-btn{
     background-color: transparent;
@@ -380,14 +383,16 @@ header a{
     color: #f05d18;
 }
 #footer{
-    height: 80vh;
+    height: auto;
     background-color: rgb(37, 26, 26);
     color: white;
     margin: 10px;
+    margin-top: 5rem;
 }
 footer>.footer-cont{
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     gap: 30px;
     margin-left: 80px;
 }
@@ -448,6 +453,7 @@ footer>.footer-cont li{
 .footer-socials{
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 .socials{
     display: flex;
