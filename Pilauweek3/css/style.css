@@ -76,11 +76,13 @@ header a{
 .homebtn .order-1:hover{
     background-color: white;
     color: #f05d18;
+    cursor: pointer;
     box-shadow: 1px 1px 5px 1px #f05d18;
 }
 .homebtn .order-2:hover{
     background-color:#f05d18;
     color: white;
+    cursor: pointer;
     box-shadow: 1px 1px 5px 1px white;
 }
 #about{
