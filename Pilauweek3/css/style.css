@@ -300,6 +300,7 @@ header a{
 #review h2{
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: xx-large;
+    margin-left: 4%;
 }
 .user-profile{
     display: flex;
